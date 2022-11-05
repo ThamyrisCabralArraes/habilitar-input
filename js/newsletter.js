@@ -9,12 +9,12 @@ function aoSair() {
 
 const contra = document.querySelector('#contra')
 const botao = document.querySelector('#botao')
+
 function contratoo() {
-  contra.checked = true
-  botao.disabled = false
+
+  botao.disabled = !contra.checked
 }
-function sair() {
-  contra.checked = false
-  botao.disabled = true
-}
-console.log(contratoo)
+// function sair() {
+//   contra.checked = false
+//   botao.disabled = true
+// }
